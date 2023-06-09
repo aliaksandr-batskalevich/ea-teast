@@ -1,0 +1,30 @@
+$width-tablet: 768px;
+$width-mobile: 360px;
+
+$height-footer-desktop: 192px;
+$height-footer-tablet: 160px;
+$height-footer-mobile: 141px;
+
+$font-main: 'Poppins', sans-serif;
+$font-form: 'Roboto', sans-serif;
+
+$color-black: rgba(0, 0, 0, 0.8);
+$color-black-light: rgba(0, 0, 0, 0.6);
+$color-blue: #1D4169;
+$color-blue-dark: #162C4E;
+$color-white:  #FFFFFF;
+$color-red: #DF2224;
+$color-blur: rgba(22, 44, 78, 0.6);
+
+%font-timer-root-style {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 72px;
+
+  color: $color-blue-dark;
+
+  @media screen and (max-width: $width-tablet) {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
