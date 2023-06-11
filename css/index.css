@@ -66,10 +66,22 @@ header .header-figure-left::after {
   background-size: contain;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 1100px) {
+  header .header-figure-left::after {
+    width: 280px;
+    height: 250px;
+  }
+}
 @media screen and (max-width: 768px) {
   header .header-figure-left::after {
     width: 246px;
     height: 206px;
+  }
+}
+@media screen and (max-width: 420px) {
+  header .header-figure-left::after {
+    width: 200px;
+    height: 165px;
   }
 }
 @media screen and (max-width: 360px) {
@@ -94,10 +106,22 @@ header .header-figure-right::after {
   background-position: bottom right;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 1100px) {
+  header .header-figure-right::after {
+    width: 140px;
+    height: 170px;
+  }
+}
 @media screen and (max-width: 768px) {
   header .header-figure-right::after {
     width: 240px;
     height: 250px;
+  }
+}
+@media screen and (max-width: 420px) {
+  header .header-figure-right::after {
+    width: 190px;
+    height: 200px;
   }
 }
 @media screen and (max-width: 360px) {
