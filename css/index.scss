@@ -61,6 +61,10 @@ header {
         width: 280px;
         height: 250px;
       }
+      @media screen and (max-width: 950px) {
+        width: 260px;
+        height: 230px;
+      }
       @media screen and (max-width: $width-tablet) {
         width: 246px;
         height: 206px;

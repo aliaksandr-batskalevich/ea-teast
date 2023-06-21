@@ -72,6 +72,12 @@ header .header-figure-left::after {
     height: 250px;
   }
 }
+@media screen and (max-width: 950px) {
+  header .header-figure-left::after {
+    width: 260px;
+    height: 230px;
+  }
+}
 @media screen and (max-width: 768px) {
   header .header-figure-left::after {
     width: 246px;
