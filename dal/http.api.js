@@ -1,6 +1,6 @@
 class HttpApi {
 
-    _baseURL = 'http://35.239.107.150/api/';
+    _baseURL = 'http://35.192.79.86/api/';
 
     subscribe(email) {
         const request = new Request(this._baseURL + 'test', {
